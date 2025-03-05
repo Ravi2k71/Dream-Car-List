@@ -1,0 +1,124 @@
+h1 { text-align: center; }
+body { background-color: #fc6b03;
+    color: #000000; 
+    font-family: 'Times New Roman', Times, serif; 
+    background-image: radial-gradient(#FFFFFF, #fc6b03);}
+
+ol, li { font-family: Georgia, "Times New Roman", serif; 
+font-size: larger;}
+
+#mobile
+/* Base styles for mobile-first */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 10px;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  section h2 {
+    font-size: 22px;
+  }
+  
+  section p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Media queries for larger screens (tablet and desktop) */
+  @media (min-width: 768px) {
+    .container {
+      max-width: 750px;
+    }
+  
+    header h1 {
+      font-size: 32px;
+    }
+  
+    nav ul {
+      justify-content: flex-start;
+    }
+  
+    section h2 {
+      font-size: 26px;
+    }
+  
+    section p {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 960px;
+    }
+  
+    header h1 {
+      font-size: 36px;
+    }
+  
+    section h2 {
+      font-size: 30px;
+    }
+  
+    section p {
+      font-size: 20px;
+    }
+  }
+  
