@@ -1,9 +1,9 @@
 .index
 h1 { text-align: center; }
-body { background-color: #fc6b03;
+body { background-color: #71baaf;
     color: #000000; 
     font-family: 'Times New Roman', Times, serif; 
-    background-image: radial-gradient(#FFFFFF, #fc6b03);}
+    background-image: radial-gradient(#FFFFFF, #71baaf);}
 
 ol, li { font-family: Georgia, "Times New Roman", serif; 
 font-size: larger;}
